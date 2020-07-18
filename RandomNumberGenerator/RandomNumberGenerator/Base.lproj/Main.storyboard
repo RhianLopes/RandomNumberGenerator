@@ -57,9 +57,16 @@
                                 <color key="backgroundColor" red="0.0" green="0.2932524051" blue="0.60856541450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
                                 <color key="tintColor" red="0.0" green="0.2932524051" blue="0.60856541450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="titleShadowOffset" width="0.0" height="3"/>
                                 <state key="normal" title="GERAR">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <state key="selected">
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="generate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qhi-Jc-oSl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.22111828556509869" green="0.39931613151740636" blue="0.63722474093264247" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -67,6 +74,7 @@
                     </view>
                     <connections>
                         <outlet property="generatedNumber" destination="vRO-5z-F8u" id="YhV-AF-687"/>
+                        <outlet property="generatorButton" destination="U2n-TN-cWA" id="tE9-xb-RMc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
