@@ -12,6 +12,7 @@
 		F129DC3424C26DA000BEF08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F129DC3224C26DA000BEF08C /* Main.storyboard */; };
 		F129DC3624C26DA100BEF08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F129DC3524C26DA100BEF08C /* Assets.xcassets */; };
 		F129DC3924C26DA100BEF08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F129DC3724C26DA100BEF08C /* LaunchScreen.storyboard */; };
+		F129DC4124C271E700BEF08C /* logo-pinguim.png in Resources */ = {isa = PBXBuildFile; fileRef = F129DC4024C271E700BEF08C /* logo-pinguim.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F129DC3524C26DA100BEF08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F129DC3824C26DA100BEF08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F129DC3A24C26DA100BEF08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F129DC4024C271E700BEF08C /* logo-pinguim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-pinguim.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		F129DC2D24C26DA000BEF08C /* RandomNumberGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				F129DC4024C271E700BEF08C /* logo-pinguim.png */,
 				F129DC2E24C26DA000BEF08C /* AppDelegate.swift */,
 				F129DC3024C26DA000BEF08C /* ViewController.swift */,
 				F129DC3224C26DA000BEF08C /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				F129DC3924C26DA100BEF08C /* LaunchScreen.storyboard in Resources */,
 				F129DC3624C26DA100BEF08C /* Assets.xcassets in Resources */,
+				F129DC4124C271E700BEF08C /* logo-pinguim.png in Resources */,
 				F129DC3424C26DA000BEF08C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
